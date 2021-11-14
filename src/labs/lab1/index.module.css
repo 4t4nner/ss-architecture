@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+.drawLab {
+    display: flex;
+    padding: 15px;
+}
+.buttonContainer {
+    padding: 15px;
+}
