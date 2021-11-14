@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  react:
+    image: node:16-alpine
+    working_dir: /usr/src/app
+    ports:
+      - 3000:4001
+    volumes:
+      - $PWD:/usr/src/app
+    restart: always
+    command: sh -c "npm i && npm run build && npm run start"

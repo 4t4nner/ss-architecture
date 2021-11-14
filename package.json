@@ -23,6 +23,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "serve": "serve --debug -l 4000 build",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
