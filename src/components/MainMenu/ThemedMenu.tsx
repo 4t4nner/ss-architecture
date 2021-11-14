@@ -8,7 +8,7 @@ interface MenuItem {
 
 const links = [
     {
-        to: '/lab1',
+        to: '/ss-architecture/lab1',
         content: 'Лабораторная работа 1'
     }
 ] as MenuItem[];
@@ -16,7 +16,7 @@ const links = [
 export default () => <div className='bg-light'>
     <Container>
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="/">Главная</Navbar.Brand>
+            <Navbar.Brand href="/ss-architecture/">Главная</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
