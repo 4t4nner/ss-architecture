@@ -11,7 +11,11 @@ const links = [
     {
         to: '/ss-architecture/lab1',
         content: 'Лабораторная работа 1'
-    }
+    },
+    {
+        to: '/ss-architecture/lab2',
+        content: 'Лабораторная работа 2'
+    },
 ] as MenuItem[];
 
 export default () => <div className='bg-light'>
